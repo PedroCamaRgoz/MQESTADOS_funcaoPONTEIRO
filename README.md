@@ -1,1 +1,2 @@
-# MQESTADOS_funcaoPONTEIRO
+# Maquina de Estados c/ Ponteiro para função
+

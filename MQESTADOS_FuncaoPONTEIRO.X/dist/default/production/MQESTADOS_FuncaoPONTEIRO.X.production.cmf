@@ -1,0 +1,499 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+cinit CODE 0 7ED 7ED 13 2
+text1 CODE 0 6CA 6CA 1A 2
+text2 CODE 0 6B0 6B0 1A 2
+text3 CODE 0 696 696 1A 2
+text4 CODE 0 67C 67C 1A 2
+text5 CODE 0 651 651 15 2
+text6 CODE 0 741 741 38 2
+text7 CODE 0 62B 62B 13 2
+text8 CODE 0 6E4 6E4 2B 2
+text9 CODE 0 70F 70F 32 2
+text10 CODE 0 61A 61A 11 2
+text11 CODE 0 779 779 74 2
+maintext CODE 0 666 666 16 2
+cstackCOMMON COMMON 1 70 70 A 1
+inittext CODE 0 63E 63E 13 2
+idataBANK0 CODE 0 613 613 7 2
+strings STRING 0 1B 1B 5A 2
+dataBANK0 BANK0 1 20 20 7 1
+functab ENTRY 0 3 3 18 2
+bssCOMMON COMMON 1 7A 7A 1 1
+config CONFIG 4 2007 2007 2 2
+$C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+end_init CODE 0 0 0 3 2
+config CONFIG 4 2007 2007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 27-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 27-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 75-612 2
+CONST 800-1FFF 2
+ENTRY 75-612 2
+ENTRY 800-1FFF 2
+IDLOC 2000-2003 2
+STACK 110-16F 1
+CODE 75-612 2
+CODE 800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+COMMON 7B-7D 1
+EEDATA 2100-21FF 2
+STRCODE 75-612 2
+STRCODE 800-1FFF 2
+STRING 75-612 2
+STRING 800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+7ED cinit CODE >1077:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7ED cinit CODE >1080:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7ED cinit CODE >1127:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7EE cinit CODE >1128:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7EF cinit CODE >1129:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7F0 cinit CODE >1130:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7F1 cinit CODE >1131:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7F2 cinit CODE >1132:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7F3 cinit CODE >1133:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7F4 cinit CODE >1134:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7F5 cinit CODE >1135:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7F6 cinit CODE >1136:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7FB cinit CODE >1140:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7FC cinit CODE >1146:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7FC cinit CODE >1148:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7FD cinit CODE >1149:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+3 functab ENTRY >2801:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+3 functab ENTRY >2803:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+3 functab ENTRY >2804:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+3 functab ENTRY >2805:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+4 functab ENTRY >2806:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+5 functab ENTRY >2807:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+6 functab ENTRY >2808:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+7 functab ENTRY >2809:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+8 functab ENTRY >2811:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+8 functab ENTRY >2812:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+9 functab ENTRY >2815:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+9 functab ENTRY >2816:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+C functab ENTRY >2819:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+C functab ENTRY >2820:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+F functab ENTRY >2823:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+F functab ENTRY >2824:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+12 functab ENTRY >2827:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+12 functab ENTRY >2828:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+15 functab ENTRY >2831:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+15 functab ENTRY >2832:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+18 functab ENTRY >2835:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+18 functab ENTRY >2836:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+779 text11 CODE >96:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+77A text11 CODE >98:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+77D text11 CODE >99:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+780 text11 CODE >99:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+783 text11 CODE >99:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+78A text11 CODE >101:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+78B text11 CODE >102:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+796 text11 CODE >103:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7A0 text11 CODE >105:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7A4 text11 CODE >106:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7A7 text11 CODE >110:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7B0 text11 CODE >112:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7B1 text11 CODE >113:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7B4 text11 CODE >113:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7B7 text11 CODE >113:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7BE text11 CODE >114:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7BF text11 CODE >115:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7C3 text11 CODE >116:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7C6 text11 CODE >120:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7C7 text11 CODE >121:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7CF text11 CODE >122:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7D0 text11 CODE >123:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7DB text11 CODE >124:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7E5 text11 CODE >126:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7E9 text11 CODE >127:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+7EC text11 CODE >128:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+61A text10 CODE >9:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+61A text10 CODE >11:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+61E text10 CODE >12:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+621 text10 CODE >13:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+624 text10 CODE >14:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+626 text10 CODE >15:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+62A text10 CODE >16:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+70F text9 CODE >153:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+70F text9 CODE >155:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+712 text9 CODE >156:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+713 text9 CODE >157:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+714 text9 CODE >158:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+715 text9 CODE >160:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+716 text9 CODE >161:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+717 text9 CODE >162:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+718 text9 CODE >163:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+719 text9 CODE >165:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+71C text9 CODE >166:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+71F text9 CODE >167:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+722 text9 CODE >171:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+723 text9 CODE >172:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+729 text9 CODE >173:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+72F text9 CODE >174:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+735 text9 CODE >175:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+73B text9 CODE >177:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+740 text9 CODE >178:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6E4 text8 CODE >131:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6E5 text8 CODE >133:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6E8 text8 CODE >134:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6EB text8 CODE >134:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6EE text8 CODE >134:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6F5 text8 CODE >135:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6F6 text8 CODE >136:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6FA text8 CODE >137:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6FD text8 CODE >139:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+6FE text8 CODE >140:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+706 text8 CODE >141:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+707 text8 CODE >142:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+70B text8 CODE >143:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+70E text8 CODE >144:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+62B text7 CODE >147:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+62C text7 CODE >149:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+62F text7 CODE >149:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+632 text7 CODE >149:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+63D text7 CODE >150:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+741 text6 CODE >180:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+741 text6 CODE >182:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+748 text6 CODE >184:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+749 text6 CODE >186:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+751 text6 CODE >186:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+755 text6 CODE >188:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+75C text6 CODE >190:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+768 text6 CODE >191:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+76C text6 CODE >184:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+774 text6 CODE >184:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+778 text6 CODE >193:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+651 text5 CODE >13:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+651 text5 CODE >15:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+652 text5 CODE >17:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+659 text5 CODE >18:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+65B text5 CODE >18:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+65F text5 CODE >15:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+665 text5 CODE >20:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+67C text4 CODE >45:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+67C text4 CODE >47:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+688 text4 CODE >48:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+691 text4 CODE >49:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+695 text4 CODE >50:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+696 text3 CODE >31:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+696 text3 CODE >33:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6A2 text3 CODE >34:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6AB text3 CODE >35:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6AF text3 CODE >36:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6B0 text2 CODE >38:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6B0 text2 CODE >40:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6BC text2 CODE >41:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6C5 text2 CODE >42:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6C9 text2 CODE >43:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6CA text1 CODE >24:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6CA text1 CODE >26:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6D6 text1 CODE >27:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6DF text1 CODE >28:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+6E3 text1 CODE >29:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+666 maintext CODE >53:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+666 maintext CODE >55:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+66E maintext CODE >57:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+672 maintext CODE >60:C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+63E inittext CODE >1101:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+63E inittext CODE >1102:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+63F inittext CODE >1103:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+640 inittext CODE >1104:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+641 inittext CODE >1105:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+642 inittext CODE >1112:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+642 inittext CODE >1113:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+647 inittext CODE >1114:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+648 inittext CODE >1115:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+649 inittext CODE >1116:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+64A inittext CODE >1117:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+64B inittext CODE >1118:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+64C inittext CODE >1119:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+64D inittext CODE >1120:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+64E inittext CODE >1121:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+64F inittext CODE >1122:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+650 inittext CODE >1123:C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__LdataBANK0 36 0 ABS 0 dataBANK0 -
+__Hspace_0 800 0 ABS 0 - -
+__Hspace_1 7B 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 4010 0 ABS 0 - -
+__HidataBANK0 36 0 ABS 0 idataBANK0 -
+delay@t 70 0 COMMON 1 cstackCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_estado_0 D94 0 CODE 0 text1 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_estado_1 D2C 0 CODE 0 text3 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_estado_2 D60 0 CODE 0 text2 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_estado_3 CF8 0 CODE 0 text4 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Hstrings 36 0 ABS 0 strings -
+_WPUB 95 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+_main CCC 0 CODE 0 maintext dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+start 0 0 CODE 0 init C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+__pfunctab 6 0 ENTRY 0 functab dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__HbssCOMMON 36 0 ABS 0 bssCOMMON -
+__end_of_estado_0 DC8 0 CODE 0 text1 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_estado_1 D60 0 CODE 0 text3 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_estado_2 D94 0 CODE 0 text2 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_estado_3 D2C 0 CODE 0 text4 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_OPTION_REGbits 81 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_LCD_str 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__LidataBANK0 36 0 ABS 0 idataBANK0 -
+_LCD_init E1E 0 CODE 0 text9 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_tecladoMatriz 42 0 STRING 0 strings dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+intlevel0 6 0 ENTRY 0 functab C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+intlevel1 6 0 ENTRY 0 functab C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+intlevel2 6 0 ENTRY 0 functab C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+intlevel3 6 0 ENTRY 0 functab C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+intlevel4 6 0 ENTRY 0 functab C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+intlevel5 6 0 ENTRY 0 functab C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+__end_of_LCD_init E82 0 CODE 0 text9 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__LbssCOMMON 36 0 ABS 0 bssCOMMON -
+wtemp0 7E 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Hfunctab 36 0 ENTRY 0 functab -
+__Hclrtext 36 0 ABS 0 clrtext -
+__end_of_dispLCD_instReg FDA 0 CODE 0 text11 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+dispLCD_lincol@col 73 0 COMMON 1 cstackCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+dispLCD_lincol@lin 75 0 COMMON 1 cstackCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_ANSELH 189 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+dispLCD_dataReg@d 71 0 COMMON 1 cstackCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lmaintext 36 0 ABS 0 maintext -
+_dispLCD_lincol C56 0 CODE 0 text7 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+___stacklo 0 0 ABS 0 - C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+__end_of_LCD_str EF2 0 CODE 0 text6 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_delay 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_dispLCD_instReg EF2 0 CODE 0 text11 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+start_initialization FDA 0 CODE 0 cinit dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_TRISDbits 88 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_keyboard_init C34 0 CODE 0 text10 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+dispLCD_instReg@i 72 0 COMMON 1 cstackCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_dispLCD_lincol C7C 0 CODE 0 text7 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_tecladoMatriz 62 0 STRING 0 strings dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+__Hbank0 36 0 ABS 0 bank0 -
+__Hbank1 36 0 ABS 0 bank1 -
+__Hbank2 36 0 ABS 0 bank2 -
+__Hbank3 36 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 40 0 STRING 0 strings dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Hmaintext 36 0 ABS 0 maintext -
+__Hcommon 36 0 ABS 0 common -
+__Hconfig 4012 0 CONFIG 4 config -
+_dispLCD_clr 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lbank0 36 0 ABS 0 bank0 -
+__Lbank1 36 0 ABS 0 bank1 -
+__Lbank2 36 0 ABS 0 bank2 -
+__Lbank3 36 0 ABS 0 bank3 -
+__Lcinit FDA 0 CODE 0 cinit -
+__Lstack 0 0 STACK 2 stack -
+__size_of__fptable 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Linittext 36 0 ABS 0 inittext -
+_LCD_Texto 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Habs1 36 0 ABS 0 abs1 -
+__Hcode 36 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 36 0 ABS 0 sfr0 -
+__Hsfr1 36 0 ABS 0 sfr1 -
+__Hsfr2 36 0 ABS 0 sfr2 -
+__Hsfr3 36 0 ABS 0 sfr3 -
+__Htext 36 0 ABS 0 text -
+__Labs1 36 0 ABS 0 abs1 -
+__Lcode 36 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 36 0 ABS 0 sfr0 -
+__Lsfr1 36 0 ABS 0 sfr1 -
+__Lsfr2 36 0 ABS 0 sfr2 -
+__Lsfr3 36 0 ABS 0 sfr3 -
+__Ltext 36 0 ABS 0 text -
+__HcstackCOMMON 36 0 ABS 0 cstackCOMMON -
+__size_of_dispLCD_instReg 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__S0 800 0 ABS 0 - -
+__S1 7B 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__size_of_keyboard_init 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lintentry 0 0 CODE 0 intentry -
+__stringtab 36 0 STRING 0 strings dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_dispLCD_dataReg E1E 0 CODE 0 text8 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Pedro\AppData\Local\Temp\xcAs7qc.o
+__fptable 6 0 ENTRY 0 functab dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__pdataBANK0 20 0 BANK0 1 dataBANK0 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_lcd_b0 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_lcd_b1 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of__fptable 36 0 ENTRY 0 functab dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext10 C34 0 CODE 0 text10 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext11 EF2 0 CODE 0 text11 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__pmaintext CCC 0 CODE 0 maintext dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_keyboard_init C56 0 CODE 0 text10 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lcommon 36 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__Hinittext 36 0 ABS 0 inittext -
+_LCD_num 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_LCD_str E82 0 CODE 0 text6 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_LCDbits 8 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_dispLCD_dataReg DC8 0 CODE 0 text8 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of__stringtab 42 0 STRING 0 strings dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__pbssCOMMON 7A 0 COMMON 1 bssCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+init_fetch0 C7C 0 CODE 0 inittext dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 36 0 ABS 0 cstackCOMMON -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Hintentry 0 0 CODE 0 intentry -
+fptable 6 0 ENTRY 0 functab dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+fptotal D 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lstrings 36 0 ABS 0 strings -
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__ptext1 D94 0 CODE 0 text1 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext2 D60 0 CODE 0 text2 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext3 D2C 0 CODE 0 text3 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext4 CF8 0 CODE 0 text4 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext5 CA2 0 CODE 0 text5 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext6 E82 0 CODE 0 text6 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext7 C56 0 CODE 0 text7 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext8 DC8 0 CODE 0 text8 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__ptext9 E1E 0 CODE 0 text9 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_dispLCD_lincol 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lfunctab 6 0 ENTRY 0 functab -
+LCD_str@str 76 0 COMMON 1 cstackCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__pidataBANK0 C26 0 CODE 0 idataBANK0 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Lclrtext 36 0 ABS 0 clrtext -
+__size_of_dispLCD_dataReg 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Hend_init 6 0 CODE 0 end_init -
+init_ram0 C84 0 CODE 0 inittext dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_main CF8 0 CODE 0 maintext dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__end_of_delay CCC 0 CODE 0 text5 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_PORTB 6 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__Hram 36 0 ABS 0 ram -
+__Lram 36 0 ABS 0 ram -
+_delay CA2 0 CODE 0 text5 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_estado_0 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_estado_1 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_estado_2 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_estado_3 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+_print 20 0 BANK0 1 dataBANK0 dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__HdataBANK0 36 0 ABS 0 dataBANK0 -
+_ponteiro 7A 0 COMMON 1 bssCOMMON dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__initialization FDA 0 CODE 0 cinit dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__pstrings 36 0 STRING 0 strings dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+__size_of_LCD_init 0 0 ABS 0 - dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+fpbase 10 0 ENTRY 0 functab dist/default/production\MQESTADOS_FuncaoPONTEIRO.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7ED FDA 13 2
+text1 0 6CA D94 1A 2
+text2 0 6B0 D60 1A 2
+text3 0 696 D2C 1A 2
+text4 0 67C CF8 1A 2
+text5 0 651 CA2 15 2
+text6 0 741 E82 38 2
+text7 0 62B C56 13 2
+text8 0 6E4 DC8 2B 2
+text9 0 70F E1E 32 2
+text10 0 61A C34 11 2
+text11 0 779 EF2 74 2
+maintext 0 666 CCC 16 2
+cstackCOMMON 1 70 70 B 1
+inittext 0 63E C7C 13 2
+reset_vec 0 0 0 3 2
+idataBANK0 0 613 C26 7 2
+strings 0 1B 36 5A 2
+dataBANK0 1 20 20 7 1
+functab 0 3 6 18 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

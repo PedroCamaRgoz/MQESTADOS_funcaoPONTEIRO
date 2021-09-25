@@ -1,0 +1,176 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"13 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"96 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+"131
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+"147
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+"153
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"180
+[v _LCD_str LCD_str `(v  1 e 1 0 ]
+"197
+[v _LCD_Texto LCD_Texto `(v  1 e 1 0 ]
+"211
+[v _LCD_num LCD_num `(v  1 e 1 0 ]
+"254
+[v _dispLCD_clr dispLCD_clr `(v  1 e 1 0 ]
+"259
+[v _lcd_b0 lcd_b0 `(uc  1 e 1 0 ]
+"264
+[v _lcd_b1 lcd_b1 `(uc  1 e 1 0 ]
+"9 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+[v _keyboard_init keyboard_init `(v  1 e 1 0 ]
+"24 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+[v _estado_0 estado_0 `(v  1 e 1 0 ]
+"31
+[v _estado_1 estado_1 `(v  1 e 1 0 ]
+"38
+[v _estado_2 estado_2 `(v  1 e 1 0 ]
+"45
+[v _estado_3 estado_3 `(v  1 e 1 0 ]
+"53
+[v _main main `(v  1 e 1 0 ]
+[s S167 . 7 `*.27(v 1 init 1 0 `*.27(v 1 string 1 1 `*.27(v 1 str_position 1 2 `*.27(v 1 number 1 3 `*.27(v 1 clr 1 4 `*.27(uc 1 B0 1 5 `*.27(uc 1 B1 1 6 ]
+"17 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X/library_shelf.h
+[v _print print `S167  1 e 7 0 ]
+"228 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S119 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1366
+[s S126 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S130 . 1 `S119 1 . 1 0 `S126 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES130  1 e 1 @129 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S40 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S49 . 1 `S40 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES49  1 e 1 @136 ]
+"2346
+[v _WPUB WPUB `VEuc  1 e 1 @149 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+[s S30 . 1 `uc 1 BUS 1 0 :4:0 
+`uc 1 RS 1 0 :1:4 
+`uc 1 EN 1 0 :1:5 
+`uc 1 B0 1 0 :1:6 
+`uc 1 B1 1 0 :1:7 
+]
+"52 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+[u S36 . 1 `S30 1 . 1 0 ]
+[v _LCDbits LCDbits `VES36  1 e 1 @8 ]
+"18 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+[v _tecladoMatriz tecladoMatriz `DC[4][4]uc  1 e 16 0 ]
+"18 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\main.c
+[v _ponteiro ponteiro `*.27(v  1 e 1 0 ]
+"53
+[v _main main `(v  1 e 1 0 ]
+{
+"63
+} 0
+"24
+[v _estado_0 estado_0 `(v  1 e 1 0 ]
+{
+"29
+} 0
+"38
+[v _estado_2 estado_2 `(v  1 e 1 0 ]
+{
+"43
+} 0
+"31
+[v _estado_1 estado_1 `(v  1 e 1 0 ]
+{
+"36
+} 0
+"45
+[v _estado_3 estado_3 `(v  1 e 1 0 ]
+{
+"50
+} 0
+"13 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `i  1 p 2 0 ]
+"20
+} 0
+"180 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+[v _LCD_str LCD_str `(v  1 e 1 0 ]
+{
+[v LCD_str@str str `*.24DCuc  1 p 1 6 ]
+"193
+} 0
+"147
+[v _dispLCD_lincol dispLCD_lincol `(v  1 e 1 0 ]
+{
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@lin lin `uc  1 a 1 wreg ]
+[v dispLCD_lincol@col col `uc  1 p 1 3 ]
+"149
+[v dispLCD_lincol@lin lin `uc  1 a 1 5 ]
+"150
+} 0
+"131
+[v _dispLCD_dataReg dispLCD_dataReg `(v  1 e 1 0 ]
+{
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+[v dispLCD_dataReg@d d `uc  1 a 1 wreg ]
+"133
+[v dispLCD_dataReg@d d `uc  1 a 1 1 ]
+"144
+} 0
+"153
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"178
+} 0
+"9 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\keyboard.c
+[v _keyboard_init keyboard_init `(v  1 e 1 0 ]
+{
+"16
+} 0
+"96 C:\Users\Pedro\MPLABXProjects\MQESTADOS_FuncaoPONTEIRO.X\dispLCD4vias.c
+[v _dispLCD_instReg dispLCD_instReg `(v  1 e 1 0 ]
+{
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+[v dispLCD_instReg@i i `uc  1 a 1 wreg ]
+"98
+[v dispLCD_instReg@i i `uc  1 a 1 2 ]
+"128
+} 0

@@ -1,0 +1,1 @@
+# MQESTADOS_funcaoPONTEIRO
